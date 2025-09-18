@@ -1,71 +1,220 @@
 <!DOCTYPE html>
 <html lang="es">
 <head>
-<meta charset="UTF-8" />
-<meta name="viewport" content="width=device-width, initial-scale=1.0" />
-<title>Monaco Detailing - Servicios</title>
-<link rel="icon" href="https://drive.google.com/uc?export=view&id=1Ul3GEFXs_Ms04qGRkBRWJhuA6Qf6ZW3X" />
-<link rel="stylesheet" href="style.css" />
-<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" />
-<link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;600;700;900&display=swap" rel="stylesheet" />
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Monaco Detailing - Servicios</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;600;700;900&display=swap" rel="stylesheet">
 </head>
 <body>
-<div class="container">
-<header>
-<nav aria-label="Navegación principal">
-<a class="logo" href="index.html" aria-label="Inicio Monaco Detailing">
-<img src="https://drive.google.com/uc?export=view&id=1Ul3GEFXs_Ms04qGRkBRWJhuA6Qf6ZW3X" alt="Logo Monaco Detailing" />
-</a>
-<ul class="nav-links">
-<li><a href="index.html">Inicio</a></li>
-<li><a href="servicios.html" class="active">Servicios</a></li>
-<li><a href="contacto.html">Contacto</a></li>
-</ul>
-<button class="mobile-menu" aria-label="Abrir menú" aria-expanded="false"><span></span><span></span><span></span></button>
-</nav>
-</header>
-
-
-<section class="page-title">
-<div class="section-container">
-<div class="section-logo"><img src="https://drive.google.com/uc?export=view&id=1Ul3GEFXs_Ms04qGRkBRWJhuA6Qf6ZW3X" alt="Logo Monaco Detailing" /></div>
-<h1>Nuestros Servicios</h1>
-</div>
-</section>
-
-
-<section class="services">
-<div class="section-container">
-<!-- EXTERIOR -->
-<div class="service-category" id="exterior">
-<h2>Servicios para Hatchback y Sedán</h2>
-<div class="service-cards">
-<article class="service-card">
-<div class="service-icon"><i class="fas fa-car" aria-hidden="true"></i></div>
-<h3>Abrillantado</h3>
-<p>Realce de brillo y protección superficial</p>
-<div class="price">$120.000</div>
-</article>
-</div>
-</div>
-
-
-<!-- INTERIOR -->
-<div class="service-category">
-<h2>Servicios para Hatchback y Sedán</h2>
-<div class="service-cards">
-<article class="service-card" id="interior">
-<div class="service-icon"><i class="fas fa-couch" aria-hidden="true"></i></div>
-<h3>Interior</h3>
-<p>Limpieza profunda y aspirado completo</p>
-<div class="price">$150.000</div>
-</article>
-
-
-<article class="service-card">
-<div class="service-icon"><i class="fas fa-broom" aria-hidden="true"></i></div>
-<h3>Interior al Detalle</h3>
-<p>Limpieza completa con productos especializados</p>
-<div class="price">$250.000</div>
-</article>
+    <div class="container">
+        <header>
+            <nav>
+                <div class="logo">
+                    <img src="https://lh3.googleusercontent.com/d/1Ul3GEFXs_Ms04qGRkBRWJhuA6Qf6ZW3X=w1000-h1000" alt="Monaco Detailing">
+                </div>
+                <ul class="nav-links">
+                    <li><a href="index.html">Inicio</a></li>
+                    <li><a href="servicios.html" class="active">Servicios</a></li>
+                    <li><a href="contacto.html">Contacto</a></li>
+                </ul>
+                <div class="mobile-menu">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </div>
+            </nav>
+        </header>
+        
+        <section class="page-title">
+            <div class="section-container">
+                <h1>Nuestros Servicios</h1>
+            </div>
+        </section>
+        
+        <section class="services">
+            <div class="section-container">
+                <div class="service-category">
+                    <h2>Servicios para Hatchback y Sedán</h2>
+                    <div class="service-cards">
+                        <div class="service-card">
+                            <div class="service-icon">
+                                <i class="fas fa-steering-wheel"></i>
+                            </div>
+                            <h3>Interior</h3>
+                            <p>Limpieza profunda y aspirado completo</p>
+                            <div class="price">$150.000</div>
+                        </div>
+                        <div class="service-card">
+                            <div class="service-icon">
+                                <i class="fas fa-broom"></i>
+                            </div>
+                            <h3>Interior al Detalle</h3>
+                            <p>Limpieza completa con productos especializados</p>
+                            <div class="price">$250.000</div>
+                        </div>
+                        <div class="service-card">
+                            <div class="service-icon">
+                                <i class="fas fa-fire"></i>
+                            </div>
+                            <h3>Motor a Vapor</h3>
+                            <p>Desengrase y limpieza profunda</p>
+                            <div class="price">$100.000</div>
+                        </div>
+                        <div class="service-card featured">
+                            <div class="service-icon">
+                                <i class="fas fa-star"></i>
+                            </div>
+                            <h3>Paquete Completo</h3>
+                            <p>Abrillantado + Interior + Motor a Vapor</p>
+                            <div class="price">$300.000</div>
+                            <span class="badge">Más popular</span>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="service-category">
+                    <h2>Servicios para SUV y Pick-up</h2>
+                    <div class="service-cards">
+                        <div class="service-card">
+                            <div class="service-icon">
+                                <i class="fas fa-steering-wheel"></i>
+                            </div>
+                            <h3>Interior</h3>
+                            <p>Limpieza profunda y aspirado completo</p>
+                            <div class="price">$200.000</div>
+                        </div>
+                        <div class="service-card">
+                            <div class="service-icon">
+                                <i class="fas fa-broom"></i>
+                            </div>
+                            <h3>Interior al Detalle</h3>
+                            <p>Limpieza completa con desmontaje de asientos</p>
+                            <div class="price">$300.000</div>
+                        </div>
+                        <div class="service-card">
+                            <div class="service-icon">
+                                <i class="fas fa-fire"></i>
+                            </div>
+                            <h3>Motor a Vapor</h3>
+                            <p>Desengrase y limpieza profunda del motor</p>
+                            <div class="price">$130.000</div>
+                        </div>
+                        <div class="service-card featured">
+                            <div class="service-icon">
+                                <i class="fas fa-star"></i>
+                            </div>
+                            <h3>Paquete Completo</h3>
+                            <p>Abrillantado + Interior + Motor a Vapor</p>
+                            <div class="price">$400.000</div>
+                            <span class="badge">Recomendado</span>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="service-category">
+                    <h2>Tratamientos Especiales</h2>
+                    <div class="treatment-cards">
+                        <div class="treatment-card">
+                            <div class="treatment-header">
+                                <div class="treatment-icon">
+                                    <i class="fas fa-shield-alt"></i>
+                                </div>
+                                <h3>Acrílico</h3>
+                                <span class="duration">6 meses</span>
+                            </div>
+                            <div class="treatment-info">
+                                <p>Protección básica con acabado brillante</p>
+                                <div class="vehicle-prices">
+                                    <div class="vehicle-price">
+                                        <span class="vehicle-type">Hatch</span>
+                                        <span class="price">$300.000</span>
+                                    </div>
+                                    <div class="vehicle-price">
+                                        <span class="vehicle-type">Sedán</span>
+                                        <span class="price">$350.000</span>
+                                    </div>
+                                    <div class="vehicle-price">
+                                        <span class="vehicle-type">Pick Up / SUV</span>
+                                        <span class="price">$400.000</span>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        
+                        <div class="treatment-card">
+                            <div class="treatment-header">
+                                <div class="treatment-icon">
+                                    <i class="fas fa-gem"></i>
+                                </div>
+                                <h3>Cerámico</h3>
+                                <span class="duration">1 año</span>
+                            </div>
+                            <div class="treatment-info">
+                                <p>Protección avanzada con efecto hidrofóbico</p>
+                                <div class="vehicle-prices">
+                                    <div class="vehicle-price">
+                                        <span class="vehicle-type">Hatch</span>
+                                        <span class="price">$450.000</span>
+                                    </div>
+                                    <div class="vehicle-price">
+                                        <span class="vehicle-type">Sedán</span>
+                                        <span class="price">$500.000</span>
+                                    </div>
+                                    <div class="vehicle-price">
+                                        <span class="vehicle-type">Pick Up / SUV</span>
+                                        <span class="price">$550.000</span>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        
+                        <div class="treatment-card featured">
+                            <span class="badge">Premium</span>
+                            <div class="treatment-header">
+                                <div class="treatment-icon">
+                                    <i class="fas fa-crown"></i>
+                                </div>
+                                <h3>Cerámico c/Graphene</h3>
+                                <span class="duration">2 años</span>
+                            </div>
+                            <div class="treatment-info">
+                                <p>Protección máxima con tecnología Graphene</p>
+                                <div class="vehicle-prices">
+                                    <div class="vehicle-price">
+                                        <span class="vehicle-type">Hatch</span>
+                                        <span class="price">$600.000</span>
+                                    </div>
+                                    <div class="vehicle-price">
+                                        <span class="vehicle-type">Sedán</span>
+                                        <span class="price">$650.000</span>
+                                    </div>
+                                    <div class="vehicle-price">
+                                        <span class="vehicle-type">Pick Up / SUV</span>
+                                        <span class="price">$700.000</span>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        
+        <footer>
+            <div class="footer-content">
+                <div class="footer-logo">
+                    <img src="https://lh3.googleusercontent.com/d/1Ul3GEFXs_Ms04qGRkBRWJhuA6Qf6ZW3X=w1000-h1000" alt="Monaco Detailing">
+                </div>
+                <div class="copyright">
+                    <p>&copy; 2023 Monaco Detailing. Todos los derechos reservados.</p>
+                </div>
+            </div>
+        </footer>
+    </div>
+    
+    <script src="script.js"></script>
+</body>
 </html>
